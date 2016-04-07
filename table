@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>TABLES </title>
+	</head>
+	<body>
+		<table border="1" cellpadding="50" >
+			
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td colspan="5">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>
