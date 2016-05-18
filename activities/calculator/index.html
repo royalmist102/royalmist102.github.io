@@ -1,9 +1,7 @@
-<html>
+<html lang="en">
     <head>
-        <!-- Bootstrap Core CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-            <!-- Custom CSS -->
-            <link href="../css/toggle-sidebar.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+            <link href="../../css/toggle-sidebar.css" rel="stylesheet">
             </head>
             <body>
                 <script>
@@ -56,21 +54,25 @@
       </script>
                 <form name="calc">
           Num1: 
+                    
                     <input type="text" id="num1">
                         <br>
           Num2: 
+                            
                             <input type="text" id="num2">
                                 <br>
                                 </form>
-                                <button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
-                                <button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
-                                <br>
+                                <div class="btn-group btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary" onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
+                                    <button type="button" class="btn btn-secondary" onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
                                     <br>
-                                        <button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
-                                        <button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
+                                        <br>
+                                            <button type="button" class="btn btn-secondary" onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
+                                            <button type="button" class="btn btn-secondary" onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
+                                        </div>
                                         <!-- jQuery -->
-                                        <script src="../js/jquery.js"></script>
+                                        <script src="../../js/jquery.js"></script>
                                         <!-- Bootstrap Core JavaScript -->
-                                        <script src="../js/bootstrap.min.js"></script>
+                                        <script src="../../js/bootstrap.min.js"></script>
                                     </body>
                                 </html>
